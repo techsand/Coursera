@@ -110,6 +110,7 @@ public class AddToDoActivity extends Activity {
 				setDefaultDateTime();
 				mPriorityRadioGroup.check(mDefaultPriorityButton.getId());
 				mTitleText.getText().clear();		
+				mStatusRadioGroup.check(mDefaultStatusButton.getId());
 			
 			}
 		});
